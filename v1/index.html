@@ -60,7 +60,6 @@
         var carbonPerGalDiesel = 22.2;
         var dieselGalSaved = ((dieselGalPerHour / 60 / 60) * totalsec);
         var dieselCostSaved = (((dieselCostPerGal * dieselGalPerHour) / 60 / 60) * totalsec);
-             dieselCostSaved.toLocaleString(undefined, {maximumFractionDigits:2});
         var carbonSaved = (((carbonPerGalDiesel * dieselGalPerHour) / 60 / 60) * totalsec);
       
         var dieselGalSaved = dieselGalSaved.toLocaleString(undefined, {maximumFractionDigits:2});
