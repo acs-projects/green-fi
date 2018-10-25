@@ -14,5 +14,5 @@ html, body{ font-family: 'Raleway', sans-serif; color: #000000; font-size:20px; 
 .fa-hourglass-half, .fa-tint, .fa-dollar-sign, .fa-leaf { color: #000000; font-size: 45px; }
 
 /* footer */
-footer{ position: absolute; bottom:10px; text-align: center; font-size: 14px; width: 98%; }
+footer{ position: absolute; bottom:10px; text-align: center; font-size: 14px; }
 footer a{ color:#000000; text-decoration: none;text-align: center; }
