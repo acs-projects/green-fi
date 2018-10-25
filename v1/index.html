@@ -62,10 +62,10 @@
         var dieselCostSaved = (((dieselCostPerGal * dieselGalPerHour) / 60 / 60) * totalsec);
         var carbonSaved = (((carbonPerGalDiesel * dieselGalPerHour) / 60 / 60) * totalsec);
       
-        var dieselGalSaved = dieselGalSaved.toLocaleString(undefined, {maximumFractionDigits:2});
-        var dieselCostSaved = dieselCostSaved.toLocaleString(undefined, {maximumFractionDigits:2});
-        var carbonSaved = carbonSaved.toLocaleString(undefined, {maximumFractionDigits:2});
-
+        var dieselGalSaved = dieselGalSaved.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits: 2});
+        var dieselCostSaved = dieselCostSaved.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits: 2});
+        var carbonSaved = carbonSaved.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits: 2});
+      
         document.getElementById("clock").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
         document.getElementById("diesel").innerHTML = dieselGalSaved + " gal";
         document.getElementById("money").innerHTML = "$" + dieselCostSaved;
