@@ -67,7 +67,7 @@
         var carbonSaved = carbonSaved.toFixed(2);
 
         document.getElementById("clock").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-        document.getElementById("diesel").innerHTML = dieselGalSaved + " gal";
+        document.getElementById("diesel").innerHTML = dieselGalSaved + " gal"; dieselGalSaved.toLocaleString('en');
         document.getElementById("money").innerHTML = "$" + dieselCostSaved;
         document.getElementById("carbon").innerHTML = carbonSaved + " lb";
       
