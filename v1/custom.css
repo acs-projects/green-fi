@@ -17,7 +17,7 @@ html, body{ font-family: 'Raleway', sans-serif; color: #000000; font-size:20px; 
 .corner-ribbon a{ color:#FFFFFF; font-weight: bold; }
 
 /* icon */
-.lnr-wrapper{ margin-top: 20px }
+.fa-wrapper{ margin-top: 20px }
 .fa-hourglass-half, .fa-tint, .fa-dollar-sign, .fa-leaf { color: #000000; font-size: 45px; }
 
 /* footer */
