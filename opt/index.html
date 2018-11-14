@@ -58,9 +58,12 @@
     var x = setInterval(function() {
         var EndDate1 = new Date("Nov 14, 2018 0:33:00").getTime();
       
-    var LaunchDate2 = new Date("Nov 14, 2018 7:00:00").getTime();
-        var now = new Date().getTime();
-        var distance = (EndDate1 - LaunchDate1) + (now - LaunchDate2)
+  //Below - Test for interval counting    
+    //var LaunchDate2 = new Date("Nov 14, 2018 7:00:00").getTime();
+        //var now = new Date().getTime();
+        //var distance = (EndDate1 - LaunchDate1) + (now - LaunchDate2)
+      
+      var distance = EndDate1 - LaunchDate1
     
         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
